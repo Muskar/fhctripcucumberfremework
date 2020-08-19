@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="50.558">
+<testcase classname="Login feature" name="TC01_Butun Room Rezervation List Excel olarak indirilebilir olmali" time="24.683">
+<system-out><![CDATA[Given kullanici fhctriplogin sayfasinda.....................................passed
+And kullanici gecerli username girer........................................passed
+And kullanici gecerli password girer........................................passed
+And kullanici login butonuna basar..........................................passed
+And kullanici Excel formatina basar.........................................passed
+Then kullanici indir butonuna basar.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_Butun Room Rezervation List Csv olarak indirilebilir olmali" time="9.185">
+<system-out><![CDATA[Given kullanici fhctriplogin sayfasinda.....................................passed
+And kullanici Csv formatina basar...........................................passed
+Then kullanici indir butonuna basar.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_Butun Room Rezervation List Pdf olarak indirilebilir olmali" time="9.436">
+<system-out><![CDATA[Given kullanici fhctriplogin sayfasinda.....................................passed
+And kullanici Pdf formatina basar...........................................passed
+Then kullanici indir butonuna basar.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_Room Rzervation Yazdirma butonuna tikladigimda tum listeyi yazdirmali" time="6.328">
+<system-out><![CDATA[Given kullanici fhctriplogin sayfasinda.....................................passed
+Then kullanici yazdir butonuna basar........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

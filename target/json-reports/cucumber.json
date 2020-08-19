@@ -1,0 +1,351 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-18T17:51:05.305Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC01_Butun Room Rezervation List Excel olarak indirilebilir olmali",
+        "description": "",
+        "id": "login-feature;tc01-butun-room-rezervation-list-excel-olarak-indirilebilir-olmali",
+        "after": [
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10481000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici fhctriplogin sayfasinda",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_fhctriplogin_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici gecerli username girer",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_gecerli_username_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici gecerli password girer",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_gecerli_password_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9652000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici Excel formatina basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_Excel_formatina_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3166000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici indir butonuna basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_indir_butonuna_basar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rezlist"
+          },
+          {
+            "name": "@Excel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-18T17:51:30.001Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC01_Butun Room Rezervation List Csv olarak indirilebilir olmali",
+        "description": "",
+        "id": "login-feature;tc01-butun-room-rezervation-list-csv-olarak-indirilebilir-olmali",
+        "after": [
+          {
+            "result": {
+              "duration": 510000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2383000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici fhctriplogin sayfasinda",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_fhctriplogin_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3126000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici Csv formatina basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_Csv_formatina_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3160000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici indir butonuna basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_indir_butonuna_basar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rezlist"
+          },
+          {
+            "name": "@Csv"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-18T17:51:39.192Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TC01_Butun Room Rezervation List Pdf olarak indirilebilir olmali",
+        "description": "",
+        "id": "login-feature;tc01-butun-room-rezervation-list-pdf-olarak-indirilebilir-olmali",
+        "after": [
+          {
+            "result": {
+              "duration": 601000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2042000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "kullanici fhctriplogin sayfasinda",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_fhctriplogin_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3139000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kullanici Pdf formatina basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_Pdf_formatina_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3649000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "kullanici indir butonuna basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_indir_butonuna_basar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rezlist"
+          },
+          {
+            "name": "@Pdf"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-18T17:51:48.642Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "TC01_Room Rzervation Yazdirma butonuna tikladigimda tum listeyi yazdirmali",
+        "description": "",
+        "id": "login-feature;tc01-room-rzervation-yazdirma-butonuna-tikladigimda-tum-listeyi-yazdirmali",
+        "after": [
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2259000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "kullanici fhctriplogin sayfasinda",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_fhctriplogin_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3478000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "kullanici yazdir butonuna basar",
+            "match": {
+              "location": "stepdefinitions.US_116_RezervationListIndirmeYazdirmaStepDef.kullanici_yazdir_butonuna_basar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rezlist"
+          },
+          {
+            "name": "@Yazdir"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_116_RezervationListIndirme.feature",
+    "tags": [
+      {
+        "name": "@rezlist",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
