@@ -40,7 +40,8 @@ public class US_116_RezervationListIndirmeYazdirma {
 
     @FindBy(id = "btnPrintTable")
     public WebElement yazdirButton;
-
-    // yaylalar yaylalar
+    
+    // Su dunya da uc sey vardir sevilir
+    // bir ana, biri baba, yar da var lele
 
 }
